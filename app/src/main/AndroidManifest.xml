@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyGallery">
         <activity
+            android:name=".Content_Img2"
+            android:exported="true" />
+        <activity
+            android:name=".Content_Img1"
+            android:exported="true" />
+        <activity
+            android:name=".Content_Img0"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
